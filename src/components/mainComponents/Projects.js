@@ -3,7 +3,7 @@ import React from 'react';
 const Projects = () => {
     return (
         <div className="row projects" id="works">
-            <h2>Projects</h2>
+            <h2 className='right-align'> Projects </h2>
             
             <div className="col s4 card">
               <div className="card-image waves-effect waves-block waves-light">

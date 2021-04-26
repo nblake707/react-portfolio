@@ -6,8 +6,8 @@ const MyStack = () => {
         <h2>About Me</h2>
         <div className="row no-row">
           <div className="col s6">
-            <img src="assets/images/correctClass.jpg" className="img-margin small-screen" />
-            <img src="assets/images/code_tint.jpg" className="img-margin" />
+            <img src="assets/images/correctClass.jpg" className="img-margin small-screen responsive-img" />
+            <img src="assets/images/code_tint.jpg" className="img-margin responsive-img" />
           </div>
           <div className="col s6 about-me">
             <h3 className="small-screen">my <br /> story</h3>

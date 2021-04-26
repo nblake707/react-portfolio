@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 
 export default class Nav extends Component {
     
+    constructor(props){
+        super(props);
+    }
+    
     menuToggle(){
     var nav = document.getElementById('menu-overlay');
     nav.classList.toggle('active');

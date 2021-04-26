@@ -5,9 +5,10 @@ import React, { Component } from 'react';
    
       render(){
         return (
-            <header>
+            <header className="row">
                {/* left column */}
-             <section className="col left-col">
+
+             <section className="col s6 left-col">
                <div className="top-container">
                <h1>hello</h1>
                <p className="typedText">
@@ -20,9 +21,9 @@ import React, { Component } from 'react';
              </section>
        
              {/* right column */}
-             <section className="col right-col">
+             <section className="col s6 right-col">
                  <div className="top-container container-fluid">
-               <img src="assets/images/meSmall.jpg" alt="nateyana blake" />
+               <img className='responsive-img me' src="assets/images/meSmall.jpg" alt="nateyana blake" />
                </div>
              </section>
            </header>

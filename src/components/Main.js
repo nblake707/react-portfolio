@@ -7,7 +7,7 @@ import Projects from './mainComponents/Projects';
 const Main = () => {
     return (
     <div className="container">
-        <p class="scroll" id="about">Scroll down to find out more</p>
+        <p class="scroll center-align" id="about">Scroll down to find out more</p>
         <MyStack />
         <Projects />
         <Contact/>

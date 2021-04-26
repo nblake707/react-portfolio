@@ -1,0 +1,55 @@
+.projects h2 {
+    color: darkseagreen;
+    margin-bottom: 8%;
+    font-size: 7em;
+}
+
+.contact h2 {
+    color: darkseagreen;
+    font-size: 7em;
+    margin-bottom: 8%;
+}
+
+.my-stack h2 {
+    color: #003170;
+    margin-bottom: 2%;
+    font-size: 7em;
+}
+
+.top-container {
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+.me {
+    border-radius: 47%;
+}
+
+/* .row .col.s6  {
+    height: 90vh;
+} */
+
+.left-col, .right-col {
+    height: 90vh;
+    display:flex;
+    align-items: center;
+}
+
+section.contact {
+    height: 62vh;
+    margin-top: 5%;
+    padding-right: 2%;
+    padding-top: 2%;
+}
+
+.left-col {
+    background-color: #2f4f4f;
+    color: #DAE7E6;
+    text-align: center;
+}
+
+.right-col {
+    background-color: #DAE7E6;
+    /* background-color: #C4A78D; */
+}
